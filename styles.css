@@ -214,7 +214,7 @@ nav ul {
     background-image: url('assets/buildings/River Line/gallery.jpg');
     min-height: 100vh;
     max-width: calc(100%);
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
