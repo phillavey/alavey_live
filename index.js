@@ -18,7 +18,7 @@ const BUILDINGS = [
         page: ''
     },
     {
-        name: 'New 1 Residence',
+        name: 'Name 1 Residence',
         description: 'A building',
         path: 'assets/buildings/Atieh Residence',
         page: ''
@@ -68,7 +68,7 @@ const GALLERY_B = [
     'River Line'
 ]
 
-const PHONE = 'Phone: (123) 456 7890';
+const PHONE = 'Phone: 312-203-9009';
 const EMAIL = 'Mail: contact@alaveyarchitecture.com';
 const LINKEDIN = 'LinkedIn: example.contact';
 
