@@ -9,7 +9,7 @@ const BUILDINGS = [
         + 'The Visitors’ Centre is experienced as a series of airy, leafy thresholds, which includes public spaces – the shop and café – which look into the semi-public spaces of the library, function room, meeting room, an exhibition area and a large greenhouse and shade house. The public spaces are enhanced by sculptural panels on the walls and ceiling that filter light like the dappled shade of a woodland.\n'
         + 'The design of the new Christchurch Botanic Gardens Centre is in the spirit of classic garden architecture, strategically sited to complement existing pathways within the garden. As a base for botanic science and research, the building is designed to communicate and educate the visitor in the beauty, variety and complexity of the plant world.',
         path: 'assets/buildings/54 Shore Drive',
-        page: 'pages/projects/54_Shore_drive'
+        page: '54_Shore_drive'
     },
     {
         name: '366 St. Andre',
