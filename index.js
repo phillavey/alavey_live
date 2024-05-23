@@ -18,25 +18,25 @@ const BUILDINGS = [
         page: ''
     },
     {
-        name: 'New name Residence',
+        name: 'New 1 Residence',
         description: 'A building',
         path: 'assets/buildings/Atieh Residence',
         page: ''
     },
     {
-        name: 'Benkert Residence',
+        name: 'Name 2 Residence',
         description: 'A building',
         path: 'assets/buildings/Benkert Residence',
         page: ''
     },
     {
-        name: 'Gajewski Residence',
+        name: 'Name 3 Residence',
         description: 'A building',
         path: 'assets/buildings/Gajewski Residence',
         page: ''
     },
     {
-        name: 'Miceli Stable',
+        name: 'Name Stable',
         description: 'A building',
         path: 'assets/buildings/Miceli Stable',
         page: ''
@@ -52,12 +52,12 @@ const BUILDINGS = [
 const GALLERY_FILE_NAME = '/gallery.jpg';
 const GALLERY_MAIN_LIST = [
     '54 Shore Drive',
-    'Miceli Stable',
-    'Benkert Residence',
-    'Gajewski Residence',
+    'Name Stable',
+    'Name 2 Residence',
+    'Name 3 Residence',
     'River Line',
     '366 St. Andre',
-    'New name Residence'
+    'Name 1 Residence'
 ]
 const GALLERY_A = [
     '54 Shore Drive',
