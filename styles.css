@@ -40,6 +40,11 @@ src: local('Optima Bold'), url('fonts/optima/OPTIMA_B.woff') format('woff');
         background-size: cover;
         filter: saturate(130%);
     }
+    
+    .galleryItemText {
+        opacity: 0;
+        transition: 300ms;
+    }
 }
 
 @media (orientation: portrait) {
@@ -375,8 +380,6 @@ nav ul {
 }
 
 .galleryItemText {
-    opacity: 0;
-    transition: 300ms;
     transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
