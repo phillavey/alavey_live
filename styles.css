@@ -31,7 +31,7 @@ src: local('Optima Bold'), url('fonts/optima/OPTIMA_B.woff') format('woff');
 }
 
 @media (orientation: landscape) {
-    .heroImageProject, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
+    .project1HeroImage, .project2HeroImage, .project3HeroImage, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
         min-height: 100vh;
         max-width: calc(100%);
         background-attachment: fixed;
@@ -69,7 +69,7 @@ src: local('Optima Bold'), url('fonts/optima/OPTIMA_B.woff') format('woff');
 }
 
 @media (orientation: portrait) {
-    .heroImageProject, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
+    .project1HeroImage, .project2HeroImage, .project3HeroImage, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
         min-height: 100vh;
         max-width: calc(100%);
         background-position: center;
@@ -235,7 +235,7 @@ nav ul {
 }
 
 .heroImageA {
-    background-image: url('assets/buildings/54 Shore Drive/gallery.jpg');
+    background-image: url('assets/buildings/Benkert Residence/gallery.jpg');
 }
 
 .heroImageB {
@@ -250,8 +250,58 @@ nav ul {
     background-image: url('assets/buildings/Miceli Stable/gallery.jpg');
 }
 
-.heroImageProject {
+/* Project 1 */
+
+.project1HeroImage {
     background-image: url('assets/buildings/54 Shore Drive/gallery.jpg');
+}
+
+.project1HeroImage.a {
+    background-image: url('assets/buildings/54 Shore Drive/1.jpg');
+}
+.project1HeroImage.b {
+    background-image: url('assets/buildings/54 Shore Drive/aEnscape_2023-06-26-21-02-51 copy.jpg');
+}
+.project1HeroImage.c {
+    background-image: url('assets/buildings/54 Shore Drive/Render photo-4.jpg');
+}
+.project1HeroImage.d {
+    background-image: url('assets/buildings/54 Shore Drive/gallery.jpg');
+}
+
+/* Project 2 */
+.project2HeroImage {
+    background-image: url('assets/buildings/366 St. Andre/gallery.jpg');
+}
+
+.project2HeroImage.a {
+    background-image: url('assets/buildings/366 St. Andre/4d.jpg');
+}
+.project2HeroImage.b {
+    background-image: url('assets/buildings/366 St. Andre/5d.jpg');
+}
+.project2HeroImage.c {
+    background-image: url('assets/buildings/366 St. Andre/2d.jpg');
+}
+.project2HeroImage.d {
+    background-image: url('assets/buildings/366 St. Andre/3d.jpg');
+}
+
+/* Project 3 */
+.project3HeroImage {
+    background-image: url('assets/buildings/River Line/gallery.jpg');
+}
+.project3HeroImage.a {
+    background-image: url('assets/buildings/River Line/building F view_10.jpg');
+}
+.project3HeroImage.b {
+    background-image: url('assets/buildings/River Line/building F view_9.jpg');
+}
+.project3HeroImage.c {
+    background-image: url('assets/buildings/River Line/building F view_8.1.jpg');
+}
+.project3HeroImage.d {
+    background-image: url('assets/buildings/River Line/building F view_3.jpg');
 }
 
 .heroText {
@@ -357,19 +407,6 @@ nav ul {
     * {
         flex-basis: 20%;
     }
-}
-
-.heroImageProject.a {
-    background-image: url('assets/buildings/54 Shore Drive/1.jpg');
-}
-.heroImageProject.b {
-    background-image: url('assets/buildings/54 Shore Drive/aEnscape_2023-06-26-21-02-51 copy.jpg');
-}
-.heroImageProject.c {
-    background-image: url('assets/buildings/54 Shore Drive/Render photo-4.jpg');
-}
-.heroImageProject.d {
-    background-image: url('assets/buildings/54 Shore Drive/gallery.jpg');
 }
 
 .textOnly.alt {
