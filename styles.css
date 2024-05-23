@@ -205,7 +205,7 @@ nav ul {
 }
 
 .heroImageA {
-    background: url('assets/buildings/54 Shore Drive/gallery.jpg') no-repeat center center fixed;
+    background-image: url('assets/buildings/54 Shore Drive/gallery.jpg');
 }
 
 .heroImageB {
@@ -217,7 +217,7 @@ nav ul {
 }
 
 .heroImageD {
-    background: url('assets/buildings/Miceli Stable/gallery.jpg') no-repeat center center fixed;
+    background-image: url('assets/buildings/Miceli Stable/gallery.jpg');
 }
 
 .heroImageProject {
