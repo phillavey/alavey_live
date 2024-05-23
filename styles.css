@@ -40,7 +40,7 @@ src: local('Optima Bold'), url('fonts/optima/OPTIMA_B.woff') format('woff');
         background-size: cover;
         filter: saturate(130%);
     }
-    
+
     .galleryItemText {
         opacity: 0;
         transition: 300ms;
@@ -277,6 +277,17 @@ nav ul {
     animation: fadeIn 1s;
     opacity: 1;
     color: black;
+}
+
+.heroTextMiddle {
+    font-size: max(32px, 3.5dvw);
+    font-weight: bold;
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+    transform: translate(-50%, -50%);
+    animation: fadeIn 2s;
+    opacity: 1;
 }
 
 @keyframes fadeIn {
