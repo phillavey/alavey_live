@@ -72,6 +72,7 @@ html {
 
 @media (min-width: 700px) {
     /* html { font-size: 200%; } */
+    .heroImageB {max-width: calc(100%);}
 }
 
 @media (min-width: 1200px) {
@@ -210,10 +211,11 @@ nav ul {
 .heroImageB {
     background-image: url('assets/buildings/River Line/gallery.jpg');
     min-height: 100vh;
+    /* height: 100%; */
     /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     filter: saturate(130%);
 }
 
