@@ -57,7 +57,7 @@ const GALLERY_MAIN_LIST = [
     'Gajewski Residence',
     'River Line',
     '366 St. Andre',
-    'Atieh Residence'
+    'New name Residence'
 ]
 const GALLERY_A = [
     '54 Shore Drive',
