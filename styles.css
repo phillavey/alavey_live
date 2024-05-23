@@ -31,19 +31,26 @@ src: local('Optima Bold'), url('fonts/optima/OPTIMA_B.woff') format('woff');
 }
 
 @media (orientation: landscape) {
-    /* .title {
-        width: 100%;
-        display: flex;
-        justify-content: start;
-    } */
+    .heroImageProject, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
+        min-height: 100vh;
+        max-width: calc(100%);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: saturate(130%);
+    }
 }
 
 @media (orientation: portrait) {
-    /* .title {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    } */
+    .heroImageProject, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
+        min-height: 100vh;
+        max-width: calc(100%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: saturate(130%);
+    }
 }
 
 @media(prefers-reduced-motion) {
@@ -199,61 +206,22 @@ nav ul {
 
 .heroImageA {
     background: url('assets/buildings/54 Shore Drive/gallery.jpg') no-repeat center center fixed;
-    height: 100%;
-    max-width: calc(100%);
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: auto 50%;
-    -moz-background-size: auto 50%;
-    -o-background-size: auto 50%;
-    background-size: auto 50%;
-    filter: saturate(130%);
 }
 
 .heroImageB {
     background-image: url('assets/buildings/River Line/gallery.jpg');
-    min-height: 100vh;
-    max-width: calc(100%);
-    /* background-attachment: fixed; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: saturate(130%);
 }
 
 .heroImageC {
     background-image: url('assets/buildings/River Line/building F view_7.1.jpg');
-    min-height: 100vh;
-    max-width: calc(100%);
-    /* background-attachment: fixed; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: saturate(130%);
 }
 
 .heroImageD {
     background: url('assets/buildings/Miceli Stable/gallery.jpg') no-repeat center center fixed;
-    height: 100%;
-    max-width: calc(100%);
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
-    background-size: auto;
-    filter: saturate(130%);
 }
 
 .heroImageProject {
     background-image: url('assets/buildings/54 Shore Drive/gallery.jpg');
-    min-height: 100vh;
-    max-width: calc(100%);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: saturate(130%);
 }
 
 .heroText {
