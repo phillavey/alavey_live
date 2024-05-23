@@ -8,43 +8,43 @@ const BUILDINGS = [
         + 'The brief was complex with the entire long-term wish list for the gardens gathered together into one project. A diversity of uses was identified, which included the shade houses and tractor and fertiliser sheds and the café. Christchurch Botanic Gardens is unusual in that it isn’t a walled garden, instead it’s permeable all the way around, pierced by bridges. The design included new access ways to complete the pathway system and open up a large section of the adjacent riverbank for public access.\n'
         + 'The Visitors’ Centre is experienced as a series of airy, leafy thresholds, which includes public spaces – the shop and café – which look into the semi-public spaces of the library, function room, meeting room, an exhibition area and a large greenhouse and shade house. The public spaces are enhanced by sculptural panels on the walls and ceiling that filter light like the dappled shade of a woodland.\n'
         + 'The design of the new Christchurch Botanic Gardens Centre is in the spirit of classic garden architecture, strategically sited to complement existing pathways within the garden. As a base for botanic science and research, the building is designed to communicate and educate the visitor in the beauty, variety and complexity of the plant world.',
-        path: './assets/buildings/54 Shore Drive',
-        page: './pages/projects/54_Shore_drive'
+        path: 'assets/buildings/54 Shore Drive',
+        page: 'pages/projects/54_Shore_drive'
     },
     {
         name: '366 St. Andre',
         description: 'A building',
-        path: './assets/buildings/366 St. Andre',
+        path: 'assets/buildings/366 St. Andre',
         page: ''
     },
     {
         name: 'Atieh Residence',
         description: 'A building',
-        path: './assets/buildings/Atieh Residence',
+        path: 'assets/buildings/Atieh Residence',
         page: ''
     },
     {
         name: 'Benkert Residence',
         description: 'A building',
-        path: './assets/buildings/Benkert Residence',
+        path: 'assets/buildings/Benkert Residence',
         page: ''
     },
     {
         name: 'Gajewski Residence',
         description: 'A building',
-        path: './assets/buildings/Gajewski Residence',
+        path: 'assets/buildings/Gajewski Residence',
         page: ''
     },
     {
         name: 'Miceli Stable',
         description: 'A building',
-        path: './assets/buildings/Miceli Stable',
+        path: 'assets/buildings/Miceli Stable',
         page: ''
     },
     {
         name: 'River Line',
         description: 'A building',
-        path: './assets/buildings/River Line',
+        path: 'assets/buildings/River Line',
         page: ''
     }
 ]
@@ -175,9 +175,9 @@ function setUp(property) {
 
 // sets hero url
 function setHeroUrl(property) {
-    document.getElementById('hero').style.backgroundImage = `url(./assets/buildings/${property}/gallery.jpg)`;
+    document.getElementById('hero').style.backgroundImage = `url(assets/buildings/${property}/gallery.jpg)`;
     // console.log(bgimg);
-    console.log(`url(./assets/buildings/${property}/gallery.jpg)`);
+    console.log(`url(assets/buildings/${property}/gallery.jpg)`);
 }
 
 // set project page description text

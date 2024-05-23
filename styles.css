@@ -196,7 +196,7 @@ nav ul {
 }
 
 .heroImageA {
-    background: url('/assets/buildings/54 shore drive/gallery.jpg') no-repeat center center fixed;
+    background: url('assets/buildings/54 shore drive/gallery.jpg') no-repeat center center fixed;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,7 +228,7 @@ nav ul {
 }
 
 .heroImageProject {
-    background-image: url('/assets/buildings/54 shore drive/gallery.jpg');
+    background-image: url('assets/buildings/54 shore drive/gallery.jpg');
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -332,16 +332,16 @@ nav ul {
 }
 
 .heroImageProject.a {
-    background-image: url('/assets/buildings/54 Shore Drive/1.jpg');
+    background-image: url('assets/buildings/54 Shore Drive/1.jpg');
 }
 .heroImageProject.b {
-    background-image: url('/assets/buildings/54 Shore Drive/aEnscape_2023-06-26-21-02-51 copy.jpg');
+    background-image: url('assets/buildings/54 Shore Drive/aEnscape_2023-06-26-21-02-51 copy.jpg');
 }
 .heroImageProject.c {
-    background-image: url('/assets/buildings/54 Shore Drive/Render photo-4.jpg');
+    background-image: url('assets/buildings/54 Shore Drive/Render photo-4.jpg');
 }
 .heroImageProject.d {
-    background-image: url('/assets/buildings/54 Shore Drive/gallery.jpg');
+    background-image: url('assets/buildings/54 Shore Drive/gallery.jpg');
 }
 
 .textOnly.alt {

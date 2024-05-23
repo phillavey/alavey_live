@@ -3,37 +3,37 @@ const BUILDINGS = [
     {
         name: '54 Shore Drive',
         description: '54 Shore drive is a building!',
-        path: './assets/buildings/54 Shore Drive'
+        path: '../assets/buildings/54 Shore Drive'
     },
     {
         name: '366 St. Andre',
         description: 'A building',
-        path: './assets/buildings/366 St. Andre'
+        path: '../assets/buildings/366 St. Andre'
     },
     {
         name: 'Atieh Residence',
         description: 'A building',
-        path: './assets/buildings/Atieh Residence'
+        path: '../assets/buildings/Atieh Residence'
     },
     {
         name: 'Benkert Residence',
         description: 'A building',
-        path: './assets/buildings/Benkert Residence'
+        path: '../assets/buildings/Benkert Residence'
     },
     {
         name: 'Gajewski Residence',
         description: 'A building',
-        path: './assets/buildings/Gajewski Residence'
+        path: '../assets/buildings/Gajewski Residence'
     },
     {
         name: 'Miceli Stable',
         description: 'A building',
-        path: './assets/buildings/Miceli Stable'
+        path: '../assets/buildings/Miceli Stable'
     },
     {
         name: 'River Line',
         description: 'A building',
-        path: './assets/buildings/River Line'
+        path: '../assets/buildings/River Line'
     }
 ]
 const GALLERY_FILE_NAME = '/gallery.jpg';
