@@ -73,6 +73,7 @@ html {
 @media (min-width: 700px) {
     /* html { font-size: 200%; } */
     .heroImageB {max-width: calc(100%);}
+    .mobileHero {max-width: calc(100%);}
 }
 
 @media (min-width: 1200px) {
