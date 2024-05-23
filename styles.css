@@ -72,8 +72,8 @@ html {
 
 @media (min-width: 700px) {
     /* html { font-size: 200%; } */
-    .heroImageB {max-width: calc(100%);}
-    .mobileHero {max-width: calc(100%);}
+    /* .heroImageB {max-width: calc(100%);} */
+    /* .mobileHero {max-width: calc(100%);} */
 }
 
 @media (min-width: 1200px) {
@@ -200,6 +200,7 @@ nav ul {
 .heroImageA {
     background: url('assets/buildings/54 Shore Drive/gallery.jpg') no-repeat center center fixed;
     height: 100%;
+    max-width: calc(100%);
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -212,6 +213,7 @@ nav ul {
 .heroImageB {
     background-image: url('assets/buildings/River Line/gallery.jpg');
     min-height: 100vh;
+    max-width: calc(100%);
     /* height: 100%; */
     /* background-attachment: fixed; */
     background-position: center;
@@ -223,6 +225,7 @@ nav ul {
 .heroImageC {
     background-image: url('assets/buildings/River Line/building F view_7.1.jpg');
     min-height: 100vh;
+    max-width: calc(100%);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -233,6 +236,7 @@ nav ul {
 .heroImageD {
     background: url('assets/buildings/Miceli Stable/gallery.jpg') no-repeat center center fixed;
     height: 100%;
+    max-width: calc(100%);
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -245,6 +249,7 @@ nav ul {
 .heroImageProject {
     background-image: url('assets/buildings/54 Shore Drive/gallery.jpg');
     min-height: 100vh;
+    max-width: calc(100%);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
