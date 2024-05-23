@@ -63,19 +63,19 @@ html {
 }
 
 @media (max-width: 300px) {
-    html { font-size: 500%; }
+    /* html { font-size: 500%; } */
 }
 
 @media (min-width: 500px) {
-    html { font-size: 500%; }
+    html { font-size: 200%; }
 }
 
 @media (min-width: 700px) {
-    html { font-size: 200%; }
+    /* html { font-size: 200%; } */
 }
 
 @media (min-width: 1200px) {
-    html { font-size: 200%; }
+    /* html { font-size: 200%; } */
     .expandingImageWrapper {
         max-width: 25%;
         min-width: 300px;

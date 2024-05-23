@@ -18,7 +18,7 @@ const BUILDINGS = [
         page: ''
     },
     {
-        name: 'Atieh Residence',
+        name: 'New name Residence',
         description: 'A building',
         path: 'assets/buildings/Atieh Residence',
         page: ''
