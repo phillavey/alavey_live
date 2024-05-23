@@ -45,6 +45,27 @@ src: local('Optima Bold'), url('fonts/optima/OPTIMA_B.woff') format('woff');
         opacity: 0;
         transition: 300ms;
     }
+
+    nav ul {
+        li {
+            &::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                height: 2px;
+                bottom: 0;
+                left: 0;
+                background-color: white;
+                transform-origin: bottom right;
+                transition: transform 0.25s ease-out;
+            }
+            &:hover::after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+            }
+        }
+    }
 }
 
 @media (orientation: portrait) {
@@ -155,7 +176,7 @@ nav ul {
         padding: 2vw 2vw 0 2vw;
         display: inline-block;
         position: relative;
-        &::after {
+        /* &::after {
             content: '';
             position: absolute;
             width: 100%;
@@ -170,7 +191,7 @@ nav ul {
         &:hover::after {
             transform: scaleX(1);
             transform-origin: bottom left;
-        }
+        } */
     }
 }
 
@@ -237,7 +258,7 @@ nav ul {
     font-size: max(32px, 3.5dvw);
     font-weight: bold;
     position: absolute;
-    top: 20vh;
+    top: 30vh;
     left: 30dvw;
     transform: translate(-50%, -50%);
     animation: fadeIn 2s;
