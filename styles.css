@@ -56,6 +56,10 @@ src: local('Optima Bold'), url('fonts/optima/OPTIMA_B.woff') format('woff');
         background-size: cover;
         filter: saturate(130%);
     }
+
+    .heroTextMiddle {
+        top: 30vh;
+    }
 }
 
 @media(prefers-reduced-motion) {
