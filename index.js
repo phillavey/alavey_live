@@ -183,6 +183,7 @@ function setHeroUrl(property) {
 // set project page description text
 function setText(property) {
     // titles
+    console.log(property)
     let name = BUILDINGS.find((o) => {
         return o.name === property;
     }).name;
