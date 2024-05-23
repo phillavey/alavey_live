@@ -203,10 +203,10 @@ nav ul {
     max-width: calc(100%);
     background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: auto 50%;
+    -moz-background-size: auto 50%;
+    -o-background-size: auto 50%;
+    background-size: auto 50%;
     filter: saturate(130%);
 }
 
@@ -224,8 +224,8 @@ nav ul {
 .heroImageC {
     background-image: url('assets/buildings/River Line/building F view_7.1.jpg');
     min-height: 100vh;
-    max-width: calc(100vw);
-    background-attachment: fixed;
+    max-width: calc(100%);
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,10 +238,10 @@ nav ul {
     max-width: calc(100%);
     background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
     filter: saturate(130%);
 }
 
