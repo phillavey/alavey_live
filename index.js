@@ -19,49 +19,55 @@ const BUILDINGS = [
         page: '366 St. Andre'
     },
     {
-        name: 'Name 1 Residence',
+        name: '4 Lori Lane',
         description: 'A building',
         path: 'assets/buildings/Atieh Residence',
         page: ''
     },
     {
-        name: 'Name 2 Residence',
+        name: '261 E Terracotta',
         description: 'A building',
         path: 'assets/buildings/Benkert Residence',
         page: ''
     },
     {
-        name: 'Name 3 Residence',
+        name: '1101 Barkley Road',
         description: 'A building',
         path: 'assets/buildings/Gajewski Residence',
         page: ''
     },
     {
-        name: 'Name Stable',
+        name: 'Miceli Farms',
         description: 'A building',
         path: 'assets/buildings/Miceli Stable',
         page: ''
     },
     {
-        name: 'River Line',
+        name: 'Building F',
         description: 'Location, USA',
         longDescription:
         'The design of the new Christchurch Botanic Gardens Centre is in the spirit of classic garden architecture, strategically sited to complement existing pathways within the garden. As a base for botanic science and research, the building is designed to communicate and educate the visitor in the beauty, variety and complexity of the plant world.\n'
         + 'The brief was complex with the entire long-term wish list for the gardens gathered together into one project. A diversity of uses was identified, which included the shade houses and tractor and fertiliser sheds and the café. Christchurch Botanic Gardens is unusual in that it isn’t a walled garden, instead it’s permeable all the way around, pierced by bridges. The design included new access ways to complete the pathway system and open up a large section of the adjacent riverbank for public access.\n',
         path: 'assets/buildings/River Line',
-        page: 'River Line'
+        page: 'Building F'
+    },
+    {
+        name: '305 Lancaster',
+        description: 'A building',
+        path: 'assets/buildings/305 Lancaster',
+        page: ''
     }
 ]
 
 const GALLERY_FILE_NAME = '/gallery.jpg';
 const GALLERY_MAIN_LIST = [
-    'Name 2 Residence',
     '54 Shore Drive',
-    'Name Stable',
-    'Name 3 Residence',
-    'River Line',
+    'Miceli Farms',
+    '261 E Terracotta',
+    '4 Lori Lane',
+    'Building F',
     '366 St. Andre',
-    'Name 1 Residence'
+    '1101 Barkley Road'
 ]
 /*
 54 shore
@@ -69,20 +75,16 @@ miceli farms
 261 east terracotta (benkert)
 4 Lori ln (atieh)
 305 Lancaster 
+building f
+366 st andre
+1101 barkley rd (gajewski)
+
 */
 
-const GALLERY_A = [
-    '54 Shore Drive',
-    'Benkert Residence'
-]
-const GALLERY_B = [
-    'Miceli Stable',
-    'River Line'
-]
-
-const PHONE = 'Phone: 312-203-9009';
-const EMAIL = 'Mail: contact@alaveyarchitecture.com';
-const LINKEDIN = 'LinkedIn: example.contact';
+const PHONE = '312-203-9009';
+const EMAIL = 'alavey@alaveyarchitecture.com';
+const LINKEDIN = 'LinkedIn';
+const LINKEDIN_ADDR = 'https://www.linkedin.com/in/adam-lavey-74b5335/';
 
 // Navbar scroll handler
 if (screen.orientation.type !== 'portrait-primary') {
@@ -169,7 +171,8 @@ const footer = document.querySelectorAll('.footer');
 footer.forEach((foot) => {
     let phone = document.createElement('div');
     let mail = document.createElement('div');
-    let linkedin = document.createElement('div');
+    let linkedin = document.createElement('a');
+    linkedin.href = LINKEDIN_ADDR;
     phone.appendChild(document.createTextNode(PHONE));
     mail.appendChild(document.createTextNode(EMAIL));
     linkedin.appendChild(document.createTextNode(LINKEDIN));

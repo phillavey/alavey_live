@@ -235,7 +235,7 @@ nav ul {
 }
 
 .heroImageA {
-    background-image: url('assets/buildings/Benkert Residence/gallery.jpg');
+    background-image: url('assets/buildings/Atieh Residence/4 Lori Ln.jpg');
 }
 .heroImageB {
     background-image: url('assets/buildings/River Line/gallery.jpg');
@@ -359,8 +359,8 @@ nav ul {
     font-size: max(32px, 3.5dvw);
     font-weight: bold;
     position: absolute;
-    top: 50vh;
-    left: 30vw;
+    top: 28vh;
+    left: 42dvw;
     transform: translate(-50%, -50%);
     animation: fadeIn 2s;
     opacity: 1;
