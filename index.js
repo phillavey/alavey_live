@@ -16,10 +16,10 @@ const BUILDINGS = [
     },
     {
         name: '4 Lori Lane',
-        description: 'A building',
+        description: 'Elgin, IL',
         longDescription: 'More information coming soon...',
         path: 'assets/buildings/Atieh Residence',
-        page: ''
+        page: '4 Lori Lane'
     },
     {
         name: '261 E Terra Cotta',
