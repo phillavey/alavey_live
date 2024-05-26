@@ -31,7 +31,7 @@ src: local('Optima Bold'), url('fonts/optima/OPTIMA_B.woff') format('woff');
 }
 
 @media (orientation: landscape) {
-    .project1HeroImage, .project2HeroImage, .project3HeroImage, .project4HeroImage, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
+    .project1HeroImage, .project2HeroImage, .project3HeroImage, .project4HeroImage, .project5HeroImage, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
         min-height: 100vh;
         max-width: calc(100%);
         background-attachment: fixed;
@@ -69,7 +69,7 @@ src: local('Optima Bold'), url('fonts/optima/OPTIMA_B.woff') format('woff');
 }
 
 @media (orientation: portrait) {
-    .project1HeroImage, .project2HeroImage, .project3HeroImage, .project4HeroImage, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
+    .project1HeroImage, .project2HeroImage, .project3HeroImage, .project4HeroImage, .project5HeroImage, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
         min-height: 100vh;
         max-width: calc(100%);
         background-position: center;
@@ -317,6 +317,24 @@ nav ul {
 }
 .project4HeroImage.d {
     background-image: url('assets/buildings/Miceli Stable/miceli construction.jpg');
+}
+
+/* Project 5 */
+/* 261 E Terra Cotta */
+.project5HeroImage {
+    background-image: url('assets/buildings/Benkert Residence/gallery.jpg');
+}
+.project5HeroImage.a {
+    background-image: url('assets/buildings/Benkert Residence');
+}
+.project5HeroImage.b {
+    background-image: url('assets/buildings/Benkert Residence');
+}
+.project5HeroImage.c {
+    background-image: url('assets/buildings/Benkert Residence');
+}
+.project5HeroImage.d {
+    background-image: url('assets/buildings/Benkert Residence');
 }
 
 .heroText {

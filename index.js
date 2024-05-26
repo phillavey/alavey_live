@@ -22,11 +22,11 @@ const BUILDINGS = [
         page: ''
     },
     {
-        name: '261 E Terracotta',
-        description: 'A building',
+        name: '261 E Terra Cotta',
+        description: 'Crystal Lake, IL',
         longDescription: 'More information coming soon...',
         path: 'assets/buildings/Benkert Residence',
-        page: ''
+        page: '261 E Terra Cotta'
     },
     {
         name: '1101 Barkley Road',
@@ -62,7 +62,7 @@ const GALLERY_FILE_NAME = '/gallery.jpg';
 const GALLERY_MAIN_LIST = [
     '54 Shore Drive',
     'Miceli Farms',
-    '261 E Terracotta',
+    '261 E Terra Cotta',
     '4 Lori Lane',
     'Building F',
     '366 St. Andre',
