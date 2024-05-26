@@ -285,6 +285,7 @@ nav ul {
 }
 
 /* Project 3 */
+/* Building F */
 .project3HeroImage {
     background-image: url('assets/buildings/River Line/gallery.jpg');
 }
@@ -292,13 +293,13 @@ nav ul {
     background-image: url('assets/buildings/River Line/building F view_10.jpg');
 }
 .project3HeroImage.b {
-    background-image: url('assets/buildings/River Line/building F view_9.jpg');
+    background-image: url('assets/buildings/River Line/building F view_5.1.jpg');
 }
 .project3HeroImage.c {
-    background-image: url('assets/buildings/River Line/building F view_8.1.jpg');
+    background-image: url('assets/buildings/River Line/building F view_9.jpg');
 }
 .project3HeroImage.d {
-    background-image: url('assets/buildings/River Line/building F view_3.jpg');
+    background-image: url('assets/buildings/River Line/building F view_7.1.jpg');
 }
 
 /* Project 4 */
