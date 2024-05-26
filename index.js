@@ -9,10 +9,10 @@ const BUILDINGS = [
     },
     {
         name: '366 St. Andre',
-        description: 'A building',
+        description: 'Valporaiso, IN',
         longDescription: 'More information coming soon...',
         path: 'assets/buildings/366 St. Andre',
-        page: '366 St. Andre'
+        page: '366 St Andre'
     },
     {
         name: '4 Lori Lane',
