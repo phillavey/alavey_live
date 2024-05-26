@@ -30,10 +30,10 @@ const BUILDINGS = [
     },
     {
         name: '1101 Barkley Road',
-        description: 'A building',
+        description: 'Charlotte, NC',
         longDescription: 'More information coming soon...',
         path: 'assets/buildings/Gajewski Residence',
-        page: ''
+        page: '1101 Barkley Road'
     },
     {
         name: 'Miceli Farms',
