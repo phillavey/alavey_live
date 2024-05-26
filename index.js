@@ -44,7 +44,7 @@ const BUILDINGS = [
     },
     {
         name: 'Building F',
-        description: 'Location, USA',
+        description: 'Chicago, IL',
         longDescription: 'More information coming soon...',
         path: 'assets/buildings/River Line',
         page: 'Building F'
