@@ -237,15 +237,13 @@ nav ul {
 .heroImageA {
     background-image: url('assets/buildings/Benkert Residence/gallery.jpg');
 }
-
 .heroImageB {
     background-image: url('assets/buildings/River Line/gallery.jpg');
 }
-
 .heroImageC {
-    background-image: url('assets/buildings/River Line/building F view_7.1.jpg');
+    background-image: url('assets/disruptiveDesign.jpg');
+    filter: brightness(80%);
 }
-
 .heroImageD {
     background-image: url('assets/buildings/Miceli Stable/gallery.jpg');
 }
@@ -255,7 +253,6 @@ nav ul {
 .project1HeroImage {
     background-image: url('assets/buildings/54 Shore Drive/gallery.jpg');
 }
-
 .project1HeroImage.a {
     background-image: url('assets/buildings/54 Shore Drive/1.jpg');
 }
@@ -305,14 +302,18 @@ nav ul {
 }
 
 .heroText {
-    font-size: max(32px, 3.5dvw);
+    font-size: max(32px, 3.8dvw);
     font-weight: bold;
     position: absolute;
-    top: 30vh;
+    top: 12vh;
     left: 30dvw;
     transform: translate(-50%, -50%);
     animation: fadeIn 2s;
     opacity: 1;
+}
+.heroText.lower {
+    top: 35vh;
+    left: 35dvw;
 }
 
 .heroText1 {

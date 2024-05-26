@@ -55,14 +55,22 @@ const BUILDINGS = [
 
 const GALLERY_FILE_NAME = '/gallery.jpg';
 const GALLERY_MAIN_LIST = [
+    'Name 2 Residence',
     '54 Shore Drive',
     'Name Stable',
-    'Name 2 Residence',
     'Name 3 Residence',
     'River Line',
     '366 St. Andre',
     'Name 1 Residence'
 ]
+/*
+54 shore
+miceli farms
+261 east terracotta (benkert)
+4 Lori ln (atieh)
+305 Lancaster 
+*/
+
 const GALLERY_A = [
     '54 Shore Drive',
     'Benkert Residence'
