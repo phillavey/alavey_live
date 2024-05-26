@@ -31,7 +31,7 @@ src: local('Optima Bold'), url('fonts/optima/OPTIMA_B.woff') format('woff');
 }
 
 @media (orientation: landscape) {
-    .project1HeroImage, .project2HeroImage, .project3HeroImage, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
+    .project1HeroImage, .project2HeroImage, .project3HeroImage, .project4HeroImage, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
         min-height: 100vh;
         max-width: calc(100%);
         background-attachment: fixed;
@@ -69,7 +69,7 @@ src: local('Optima Bold'), url('fonts/optima/OPTIMA_B.woff') format('woff');
 }
 
 @media (orientation: portrait) {
-    .project1HeroImage, .project2HeroImage, .project3HeroImage, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
+    .project1HeroImage, .project2HeroImage, .project3HeroImage, .project4HeroImage, .heroImageA, .heroImageB, .heroImageC, .heroImageD {
         min-height: 100vh;
         max-width: calc(100%);
         background-position: center;
@@ -249,7 +249,7 @@ nav ul {
 }
 
 /* Project 1 */
-
+/* 54 Shore dr  */
 .project1HeroImage {
     background-image: url('assets/buildings/54 Shore Drive/gallery.jpg');
 }
@@ -260,10 +260,10 @@ nav ul {
     background-image: url('assets/buildings/54 Shore Drive/aEnscape_2023-06-26-21-02-51 copy.jpg');
 }
 .project1HeroImage.c {
-    background-image: url('assets/buildings/54 Shore Drive/Render photo-4.jpg');
+    background-image: url('assets/buildings/54 Shore Drive/54 construction.jpg');
 }
 .project1HeroImage.d {
-    background-image: url('assets/buildings/54 Shore Drive/gallery.jpg');
+    background-image: url('assets/buildings/54 Shore Drive/54 construction 2.jpg');
 }
 
 /* Project 2 */
@@ -298,6 +298,24 @@ nav ul {
     background-image: url('assets/buildings/River Line/building F view_8.1.jpg');
 }
 .project3HeroImage.d {
+    background-image: url('assets/buildings/River Line/building F view_3.jpg');
+}
+
+/* Project 4 */
+/* Miceli Farms */
+.project4HeroImage {
+    background-image: url('assets/buildings/Miceli Stable/gallery.jpg');
+}
+.project4HeroImage.a {
+    background-image: url('assets/buildings/River Line/building F view_10.jpg');
+}
+.project4HeroImage.b {
+    background-image: url('assets/buildings/River Line/building F view_9.jpg');
+}
+.project4HeroImage.c {
+    background-image: url('assets/buildings/River Line/building F view_8.1.jpg');
+}
+.project4HeroImage.d {
     background-image: url('assets/buildings/River Line/building F view_3.jpg');
 }
 

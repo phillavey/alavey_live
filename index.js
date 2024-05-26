@@ -2,7 +2,7 @@
 const BUILDINGS = [
     {
         name: '54 Shore Drive',
-        description: 'Aspen, C.O.',
+        description: 'Ogden Dunes, IN',
         longDescription:
         'The design of the new Christchurch Botanic Gardens Centre is in the spirit of classic garden architecture, strategically sited to complement existing pathways within the garden. As a base for botanic science and research, the building is designed to communicate and educate the visitor in the beauty, variety and complexity of the plant world.\n'
         + 'The brief was complex with the entire long-term wish list for the gardens gathered together into one project. A diversity of uses was identified, which included the shade houses and tractor and fertiliser sheds and the café. Christchurch Botanic Gardens is unusual in that it isn’t a walled garden, instead it’s permeable all the way around, pierced by bridges. The design included new access ways to complete the pathway system and open up a large section of the adjacent riverbank for public access.\n',
@@ -40,7 +40,7 @@ const BUILDINGS = [
         name: 'Miceli Farms',
         description: 'A building',
         path: 'assets/buildings/Miceli Stable',
-        page: ''
+        page: 'Miceli Farms'
     },
     {
         name: 'Building F',
