@@ -42,13 +42,13 @@ const BUILDINGS = [
         path: 'assets/buildings/Miceli Stable',
         page: 'Miceli Farms'
     },
-    {
-        name: 'Building F',
-        description: 'Chicago, IL',
-        longDescription: 'More information coming soon...',
-        path: 'assets/buildings/River Line',
-        page: 'Building F'
-    },
+    // {
+    //     name: 'Building F',
+    //     description: 'Chicago, IL',
+    //     longDescription: 'More information coming soon...',
+    //     path: 'assets/buildings/River Line',
+    //     page: 'Building F'
+    // },
     {
         name: '305 Lancaster',
         description: 'A building',
@@ -64,7 +64,7 @@ const GALLERY_MAIN_LIST = [
     'Miceli Farms',
     '261 E Terra Cotta',
     '4 Lori Lane',
-    'Building F',
+    // 'Building F',
     '366 St. Andre',
     '1101 Barkley Road'
 ]
