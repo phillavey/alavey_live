@@ -268,6 +268,18 @@ nav ul {
 .project1HeroImage.d {
     background-image: url('assets/buildings/54 Shore Drive/54 construction 2.jpg');
 }
+.project1HeroImage.e {
+    background-image: url('assets/buildings/54 Shore Drive/1st floor plan.jpg');
+    background-size: contain;
+}
+.project1HeroImage.f {
+    background-image: url('assets/buildings/54 Shore Drive/2nd floor plan.jpg');
+    background-size: contain;
+}
+.project1HeroImage.g {
+    background-image: url('assets/buildings/54 Shore Drive/basement floor plan.jpg');
+    background-size: contain;
+}
 
 /* Project 2 */
 .project2HeroImage {

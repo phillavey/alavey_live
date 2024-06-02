@@ -3,7 +3,8 @@ const BUILDINGS = [
     {
         name: '54 Shore Drive',
         description: 'Ogden Dunes, IN',
-        longDescription: 'More information coming soon...',
+        longDescription: 'There is subtle alchemy between the new vertically clad compositional interventions and the predictable fenestration of the existing horizontally clad house located on Lake Michigan. The original raised ranch, constructed in the 1950’s, was renovated and added to in the 80’s.  It was time for a serious update to fit the lifestyle of its’ owners.'
+        + '\nThe program includes a steel and glass arcade acting as a visual and circulatory element unifying the main level living spaces.   The upper level becomes the primary bedroom suite renovated from an existing loft.  Intervening functional spaces including his and hers work from home perches flank and focus views to the lake.',
         path: 'assets/buildings/54 Shore Drive',
         page: '54 Shore Drive'
     },
