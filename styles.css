@@ -334,6 +334,14 @@ nav ul {
 .project4HeroImage.d {
     background-image: url('assets/buildings/Miceli Stable/miceli construction.jpg');
 }
+.project4HeroImage.e {
+    background-image: url('assets/buildings/Miceli Stable/1st floor plan.jpg');
+    background-size: contain;
+}
+.project4HeroImage.f {
+    background-image: url('assets/buildings/Miceli Stable/2nd floor plan.jpg');
+    background-size: contain;
+}
 
 /* Project 5 */
 /* 261 E Terra Cotta */
@@ -341,7 +349,7 @@ nav ul {
     background-image: url('assets/buildings/Benkert Residence/gallery.jpg');
 }
 .project5HeroImage.a {
-    background-image: url('assets/buildings/Benkert Residence');
+    background-image: url('assets/buildings/Benkert Residence/kitchen 3d model view 2.jpg');
 }
 .project5HeroImage.b {
     background-image: url('assets/buildings/Benkert Residence');
@@ -351,6 +359,14 @@ nav ul {
 }
 .project5HeroImage.d {
     background-image: url('assets/buildings/Benkert Residence');
+}
+.project5HeroImage.e {
+    background-image: url('assets/buildings/Benkert Residence/1st floor plan 2.jpg');
+    background-size: contain;
+}
+.project5HeroImage.f {
+    background-image: url('assets/buildings/Benkert Residence/2nd floor plan 2.jpg');
+    background-size: contain;
 }
 
 /* Project 6 */
@@ -369,6 +385,10 @@ nav ul {
 }
 .project6HeroImage.d {
     background-image: url('assets/buildings/Atieh Residence');
+}
+.project6HeroImage.e {
+    background-image: url('assets/buildings/Atieh Residence/1st floor plan.jpg');
+    background-size: contain;
 }
 
 /* Project 7 */

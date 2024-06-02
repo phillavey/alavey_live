@@ -39,7 +39,8 @@ const BUILDINGS = [
     {
         name: 'Miceli Farms',
         description: 'Wayne, IL',
-        longDescription: 'More information coming soon...',
+        longDescription: 'Located on 4.5 acres adjacent to an equestrian path in the horse-centric community of Wayne, this stable takes its architectural cues from the new residence recently completed on site. Felled trees necessary for the construction of the home and stable will be milled for use as interior cladding within the barn.'
+        + '\nThe program includes stalls for four rescue horses, a wash bay, hay lofts, and a feed/tack room that allows for a space to lounge.  Each stall has direct access to a covered paddock leading to the pasture facing the home across a creek bisecting the wooded property.  “Camilla wishes for a new home for River”.  Wish granted!',
         path: 'assets/buildings/Miceli Stable',
         page: 'Miceli Farms'
     },
