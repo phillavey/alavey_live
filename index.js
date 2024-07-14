@@ -57,6 +57,13 @@ const BUILDINGS = [
         longDescription: 'More information coming soon...',
         path: 'assets/buildings/305 Lancaster',
         page: ''
+    },
+    { // This object is used to create an external link to hidden harbor, so no description included
+        name: 'Hidden Harbor',
+        description: '',
+        longDescription: '',
+        path: 'assets/external/hidden harbor',
+        page: 'https://www.hiddenharbor.co/'
     }
 ]
 
@@ -68,7 +75,8 @@ const GALLERY_MAIN_LIST = [
     '4 Lori Lane',
     // 'Building F',
     '366 St. Andre',
-    '1101 Barkley Road'
+    '1101 Barkley Road',
+    'Hidden Harbor'
 ]
 /*
 54 shore
@@ -87,10 +95,28 @@ const EMAIL = 'alavey@alaveyarchitecture.com';
 const LINKEDIN = 'LinkedIn';
 const LINKEDIN_ADDR = 'https://www.linkedin.com/in/adam-lavey-74b5335/';
 
-// Navbar scroll handler
+// Add icon stylesheet
+document.querySelector('head').insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">')
+
+// Navbar handler AND hamburger helper
+const nav = document.querySelector('nav');
 if (screen.orientation.type !== 'portrait-primary') {
-    const nav = document.querySelector('nav');
     let lastScrollY = window.scrollY;
+
+    // Cleanup if coming from portrait
+    nav.classList.remove('nav-hidden');
+
+    nav.insertAdjacentHTML('afterbegin', `
+    <a href="./">
+        <img class="titleImage" src="assets/logos/aLa Logo B W ALT.png" alt="aLavey Architecture">
+    </a>
+    <ul>
+        <li class="titleTabButton"><a href="projects">Projects</a></li>
+        <li class="titleTabButton"><a href="services">Services</a></li>
+        <li class="titleTabButton"><a href="about">About</a></li>
+        <li class="titleTabButton"><a href="contact">Contact</a></li>
+    </ul>
+    `)
 
     window.addEventListener('scroll', () => {
         let scrollYRecent = window.scrollY;
@@ -101,8 +127,36 @@ if (screen.orientation.type !== 'portrait-primary') {
         }
         lastScrollY = scrollYRecent;
     });
+} else {
+    nav.classList.add('nav-hidden');
+    nav.insertAdjacentHTML('afterend', `
+    <div class="mobile-nav">
+        <div class="mobile-nav-topBar">
+            <a href="./">
+                <img class="titleImage" src="assets/logos/aLa Logo B W ALT.png" alt="aLavey Architecture">
+            </a>
+            <a href="javascript:void(0);" class="hamburger-mobile" onclick="toggleMobileNavbar()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="mobile-tabButtons-container mobile-nav-hidden">
+            <a class="titleTabButton-mobile" href="projects">Projects</a>
+            <a class="titleTabButton-mobile" href="services">Services</a>
+            <a class="titleTabButton-mobile" href="leadership">Leadership</a>
+            <a class="titleTabButton-mobile" href="contact">Contact</a>
+        <div>
+    </div>
+    `)
 }
 
+function toggleMobileNavbar() {
+    const buttons = document.querySelector('.mobile-tabButtons-container');
+    if (buttons.classList.contains('mobile-nav-hidden')) {
+        buttons.classList.remove('mobile-nav-hidden');
+    } else {
+        buttons.classList.add('mobile-nav-hidden');
+    }
+}
 
 // gallery item generator
 function galleryGen(num) {

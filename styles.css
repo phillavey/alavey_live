@@ -230,8 +230,43 @@ nav ul {
     /* height: 50%; */
     border: none;
     color: white;
-
+    font-size: 32px;
     transition: 0.5s;
+}
+
+.mobile-nav {
+    /* height: 30vh; */
+    position: fixed;
+    z-index: 100;
+    background: var(--backgroundGray);
+    width: 100%;
+}
+.mobile-nav-topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburger-mobile {
+    margin-right: 32px;
+}
+.mobile-tabButtons-container {
+    height: 100%;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.mobile-nav-hidden {
+    display: none;
+}
+.titleTabButton-mobile {
+    float: left;
+    height: 50%;
+    /* border: none; */
+    color: white;
+
+    /* transition: 0.5s; */
 }
 
 .heroImageA {
@@ -544,6 +579,19 @@ nav ul {
             opacity: 1;
         }
     }
+}
+
+.simpleImageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.simpleImageGroupCaption {
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .imageGallery {
