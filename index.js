@@ -18,21 +18,44 @@ const BUILDINGS = [
     {
         name: '4 Lori Lane',
         description: 'Elgin, IL',
-        longDescription: 'More information coming soon...',
+        longDescription: 'Designed for a retired couple, this American contemporary ranch with a walkout basement is nestled into a steeply sloped, wooded lot. An angled garage and' +
+        'connecting metal roofed porch creates a comforting entry motor court. A raised gable' +
+        'transitioning from porches unifies the plan bringing light front to back through an upper' +
+        'gallery.\n' +
+        'The program includes an open floor plan delineated by posts and columns providing a' +
+        'veritable mix of ceiling types and heights. The private spaces flank the living spaces' +
+        'with the two guest bedrooms and a bath to the west and the primary bedroom to the' +
+        'east. A screen porch on the upper level provides additional outdoor living space on the' +
+        'main level.',
         path: 'assets/buildings/Atieh Residence',
         page: '4 Lori Lane'
     },
     {
         name: '261 E Terra Cotta',
         description: 'Crystal Lake, IL',
-        longDescription: 'More information coming soon...',
+        longDescription: 'A shipping container home, only better. This small modern bungalow was first explored ' +
+        'as a shipping container design. As options played out, it was realized that a stick-built ' +
+        'framed version would produce better economic outcomes. It is all electric and serves ' +
+        'as the first property for two brothers starting a real estate portfolio. More to come!\n' +
+        'The program includes spaces designed in geometric bars, slipped in plan to assemble a ' +
+        'massing with a central volume clerestory great room with an interceding loft space. The ' +
+        'open arrangement of spaces allows for very little wasted circulation. Strategic use of ' +
+        'windows reinforce the passive nature of this cottage leading to a suburban downtown.',
         path: 'assets/buildings/Benkert Residence',
         page: '261 E Terra Cotta'
     },
     {
         name: '1101 Barkley Road',
         description: 'Charlotte, NC',
-        longDescription: 'More information coming soon...',
+        longDescription: 'Imagined for a true “foodie”, this primary bedroom and kitchen addition is designed to ' +
+        'emulate a bite taken from the standard gables composing the original home. Windows ' +
+        'and glass doors fill the “bite” opening up the interior spaces where the cook can shine. ' +
+        'Built to entertain no doubt. Bon appetit!\n' +
+        'The program includes integrating a new kitchen that is a functional gem with active ' +
+        'spaces leading to an accentuated multi-level deck space overlooking a creek. The new ' +
+        'primary bedroom suite is entered through a renovated existing bedroom which is ' +
+        'reconfigured to house a walk-in closet and new laundry room appropriated relocated to ' +
+        'the bedroom wing.',
         path: 'assets/buildings/Gajewski Residence',
         page: '1101 Barkley Road'
     },
@@ -178,6 +201,9 @@ function populateGallery(galleryItems, galleryClass) {
         let page = BUILDINGS.find((o) => {
             return o.name === e;
         }).page;
+        let name = BUILDINGS.find((o) => {
+            return o.name === e;
+        }).name;
 
         // create gallery item
         let wrapper = document.createElement('div'); // img wrapper
@@ -191,7 +217,12 @@ function populateGallery(galleryItems, galleryClass) {
         // add to gallery
         gallery.appendChild(link).className = 'expandingImageWrapper'; 
         img.src = path + GALLERY_FILE_NAME;
+        img.id = name;
         link.href = page;
+
+        // external link edit
+        let hharbor = document.getElementById('Hidden Harbor')
+        hharbor?.setAttribute('target', '_blank')
     });
 }
 
